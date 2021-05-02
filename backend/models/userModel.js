@@ -20,9 +20,6 @@ const userSchema = new mongoose.Schema({
     address2: {
         type: String
     },
-    pincode: {
-        type: Number
-    },
     cart: {
         type: Array,
         default: []
