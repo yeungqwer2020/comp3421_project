@@ -16,7 +16,7 @@
     "frontend": "npm run start --prefix frontend",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix frontend\"",
     "data:import": "node backend/seederScript.js",
-    "predeploy": "npm run build",
+    "predeploy": "npm run dev",
     "deploy": "gh-pages -d build"
   },
   "keywords": [
